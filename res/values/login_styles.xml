@@ -1,0 +1,44 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- ====================[ 登录 ]==================== -->
+	<!-- 登录表单整体样式 -->
+	<style name="login_form_style">
+	    <item name="android:paddingTop">@dimen/login_form_top_bottom_padding</item>
+	    <item name="android:paddingRight">@dimen/login_form_left_right_padding</item>
+	    <item name="android:paddingBottom">@dimen/login_form_top_bottom_padding</item>
+	    <item name="android:paddingLeft">@dimen/login_form_left_right_padding</item>
+	</style>
+	<!-- 用户名输入LinearLayout样式 -->
+	<style name="login_form_user_name_linear_layout_style">
+		<item name="android:background">@color/login_form_input_linear_layout_background_color</item>
+		<item name="android:padding">@dimen/login_form_input_linear_layout_padding</item>
+	</style>
+	<!-- 密码输入LinearLayout样式 -->
+	<style name="login_form_password_linear_layout_style">
+		<item name="android:background">@color/login_form_input_linear_layout_background_color</item>
+		<item name="android:paddingLeft">@dimen/login_form_input_linear_layout_padding</item>
+		<item name="android:paddingRight">@dimen/login_form_input_linear_layout_padding</item>
+		<item name="android:paddingBottom">@dimen/login_form_input_linear_layout_padding</item>
+	</style>
+	<!-- 用户名文本框 -->
+	<style name="login_form_input_style">
+		<item name="android:height">@dimen/login_form_input_height</item>
+		<item name="android:textSize">@dimen/login_form_input_text_size</item>
+		<item name="android:textColor">@color/common_input_text_color</item>
+		<item name="android:textColorHint">@color/common_input_hint_text_color</item>
+		<item name="android:background">@color/common_input_background_color</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:paddingLeft">@dimen/login_form_input_left_right_padding</item>
+		<item name="android:paddingRight">@dimen/login_form_input_left_right_padding</item>
+		<item name="android:paddingTop">@dimen/login_form_input_top_bottom_padding</item>
+		<item name="android:paddingBottom">@dimen/login_form_input_top_bottom_padding</item>
+	</style>
+	<!-- 获取验证码按钮样式 -->
+	<style name="login_form_get_captcha_button_style" parent="@style/common_background_text_color">
+	    <item name="android:background">@drawable/common_button_background</item>
+	    <item name="android:layout_gravity">right|center</item>
+	    <item name="android:text">@string/login_get_captcha_button_text</item>
+		<item name="android:textSize">@dimen/login_form_get_captcha_button_text_size</item>
+		<item name="android:padding">@dimen/login_form_get_captcha_button_padding</item>
+		<item name="android:layout_marginRight">@dimen/login_form_input_left_right_padding</item>
+	</style>
+</resources>

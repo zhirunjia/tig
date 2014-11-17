@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ========================[ 公共颜色 ]========================== -->
+    <!-- 公共背景颜色 -->
+    <color name="common_background_color">#FF6535</color>
+    <!-- 整体背景颜色 -->
+    <color name="common_body_background_color">#F5F5F5</color>
+    <!-- 标题文字颜色 -->
+    <color name="common_title_text_color">#FFF</color>
+    <!-- 按钮文字颜色 -->
+    <color name="common_button_text_color">#FFF</color>
+	<!-- 输入文本字体颜色 -->
+	<color name="common_input_text_color">@color/common_background_color</color>
+	<!-- 文本提示信息颜色 -->
+	<color name="common_input_hint_text_color">#B1B1B1</color>
+	<!-- 文本框背景颜色 -->
+	<color name="common_input_background_color">@color/common_row_date_background_color</color>
+	<!-- 单条数据背景颜色 -->
+	<color name="common_row_date_background_color">#FFF</color>
+	<!-- 无图标数据标题或标题补充 未被选中时的颜色 -->
+	<color name="common_row_date_title_no_icon_text_unchecked_color">@color/common_input_hint_text_color</color>
+	<!-- 无图标数据标题或标题补充 未被选中时的颜色 -->
+	<color name="common_row_date_title_no_icon_text_checked_color">#666666</color>
+	<!-- 页脚整体背景颜色 -->
+
+	<!-- ========================[ 登录 ]=========================== -->
+	<!-- 文本框 LinearLayout背景颜色 -->
+	<color name="login_form_input_linear_layout_background_color">#DADADA</color>
+	<color name="login_form_input_frame_layout_background_color">#FFFFFF</color>
+	<!-- ========================[ 保洁 ]======================= -->
+	<!-- 下单选项背景颜色 -->
+	<color name="clean_keeping_option_background_color">@color/common_row_date_background_color</color>
+	<!-- 下单选项文字补充说明颜色 -->
+	<color name="clean_keeping_option_text_description_color">@color/common_row_date_title_no_icon_text_checked_color</color>
+	<!-- 下单选项 房屋面积选项 未被选中文字颜色 -->
+	<color name="clean_keeping_option_floor_eare_option_unselected_text_color">@color/common_row_date_title_no_icon_text_checked_color</color>
+</resources>

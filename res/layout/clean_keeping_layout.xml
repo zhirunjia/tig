@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/common_body_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/public_header_layout" />
+	<include
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    layout="@layout/public_top_layout"/>
+	<!-- ==========================[ 服务时间 -->
+	<FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		style="@style/clean_keeping_option_style">
+
+		<LinearLayout
+		    style="@style/clean_keeping_option_left_linear_layout_style"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="left" >
+
+			<!-- 左侧小图标 -->
+			<ImageView
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:background="@drawable/order_time"
+			    android:layout_gravity="left"
+			    android:contentDescription="@string/clean_keeping_option_image"/>
+			<!-- 中间文字内容 -->
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:layout_gravity="center"
+			    android:gravity="center"
+			    android:text="@string/clean_keeping_service_time"
+			    style="@style/clean_keeping_option_text_style"/>
+		</LinearLayout>
+		<!-- 右侧小图标 -->
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:background="@drawable/s_right_arrow"
+			android:layout_gravity="right"
+			android:contentDescription="@string/clean_keeping_option_action_image"/>
+	</FrameLayout>
+	<!-- ======================[ 服务地址 -->
+	<FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    style="@style/clean_keeping_option_style">
+
+		<LinearLayout
+		    style="@style/clean_keeping_option_left_linear_layout_style"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="left" >
+
+			<!-- 左侧小图标 -->
+			<ImageView
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:background="@drawable/order_addr"
+			    android:layout_gravity="left"
+			    android:contentDescription="@string/clean_keeping_option_image"/>
+			<!-- 中间文字内容 -->
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:layout_gravity="center"
+			    android:gravity="center"
+			    android:text="@string/clean_keeping_service_address"
+			    style="@style/clean_keeping_option_text_style"/>
+		</LinearLayout>
+		<!-- 右侧小图标 -->
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:background="@drawable/s_right_arrow"
+			android:layout_gravity="right"
+			android:contentDescription="@string/clean_keeping_option_image"/>
+	</FrameLayout>
+	<!-- =================[ 平方米 -->
+	<FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		style="@style/clean_keeping_option_floor_eare_style">
+
+		<LinearLayout
+		    style="@style/clean_keeping_option_left_linear_layout_style"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="left|center_vertical" >
+
+			<!-- 左侧小图标 -->
+			<ImageView
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:background="@drawable/m2"
+			    android:layout_gravity="left"
+			    android:contentDescription="@string/clean_keeping_option_image"/>
+			<!-- 中间文字内容 -->
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:layout_gravity="center"
+			    android:gravity="center"
+			    android:text="@string/clean_keeping_floor_area"
+			    style="@style/clean_keeping_option_text_style"/>"
+		</LinearLayout>
+		<!-- 右侧选项 -->
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:layout_gravity="right|center_vertical"
+			android:orientation="horizontal"
+		    >
+		    <FrameLayout
+			    android:layout_width="wrap_content"
+				android:background="@drawable/common_button_background"
+			    style="@style/clean_keeping_option_floor_eare_option_style">
+				<TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="top|center"
+				    android:text="@string/clean_keeping_floor_eare_top_text_0"
+				    style="@style/clean_keeping_option_floor_eare_option_top_text_selected_style"/>"
+				<TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="bottom|center"
+				    android:text="@string/clean_keeping_floor_eare_bottom_text_0"
+				    style="@style/clean_keeping_option_floor_eare_option_bottom_text_selected_style"/>
+			</FrameLayout>
+			<FrameLayout
+			    android:layout_width="wrap_content"
+			    android:layout_gravity="right|center_vertical"
+			    style="@style/clean_keeping_option_floor_eare_option_style">
+				<TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="top|center"
+				    android:text="@string/clean_keeping_floor_eare_top_text_1"
+				    style="@style/clean_keeping_option_floor_eare_option_top_text_unselected_style"/>
+				<TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="bottom|center"
+				    android:text="@string/clean_keeping_floor_eare_bottom_text_1"
+				    style="@style/clean_keeping_option_floor_eare_option_bottom_text_unselected_style"/>
+			</FrameLayout>
+			<FrameLayout
+			    android:layout_width="wrap_content"
+			    android:layout_gravity="right|center_vertical"
+			    style="@style/clean_keeping_option_floor_eare_option_style">
+				<TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="top|center"
+				    android:text="@string/clean_keeping_floor_eare_top_text_2"
+				    style="@style/clean_keeping_option_floor_eare_option_top_text_unselected_style"/>
+				<TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="bottom|center"
+				    android:text="@string/clean_keeping_floor_eare_bottom_text_2"
+				    style="@style/clean_keeping_option_floor_eare_option_bottom_text_unselected_style"/>
+			</FrameLayout>
+		</LinearLayout>
+	</FrameLayout>
+	<!-- =======================[ 其他 -->
+	<FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		style="@style/clean_keeping_option_style">
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_gravity="left"
+		    style="@style/clean_keeping_option_left_linear_layout_style">
+			<!-- 左侧小图标 -->
+			<ImageView
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:background="@drawable/order_other"
+			    android:layout_gravity="left"
+			    android:contentDescription="@string/clean_keeping_option_image"/>
+			<!-- 中间文字内容 -->
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:layout_gravity="center"
+			    android:gravity="center"
+			    android:text="@string/clean_keeping_remark"
+			    style="@style/clean_keeping_option_text_style"/>
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:layout_gravity="center"
+			    android:gravity="center"
+			    android:text="@string/clean_keeping_remark_description"
+			    style="@style/clean_keeping_option_text_description_style"/>
+		</LinearLayout>
+		<!-- 右侧小图标 -->
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:background="@drawable/s_right_arrow"
+			android:layout_gravity="right"
+			android:contentDescription="@string/clean_keeping_option_action_image"/>
+	</FrameLayout>"
+</LinearLayout>

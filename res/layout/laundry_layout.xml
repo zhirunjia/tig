@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/common_body_style">
+	<include
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    layout="@layout/public_header_layout"/>
+	<include
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    layout="@layout/public_top_layout"/>
+	<!-- 垂直滚动条 -->
+	<FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent">
+		<ScrollView
+		    android:layout_width="match_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_gravity="top"
+		    style="@style/common_croll_view_style">
+			<!-- 列表内容 -->
+			<TableLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:shrinkColumns="0">
+				<!-- 单行选项 -->
+				<TableRow
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    style="@style/common_row_date_style">
+				    <TableLayout
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:orientation="vertical"
+				        android:layout_column="0"
+			    		android:stretchColumns="1"
+			    		android:shrinkColumns="1">
+				        <!-- 左上服务名称 -->
+				        <TableRow
+				            android:layout_width="wrap_content"
+				            style="@style/common_row_date_title_style">
+				            <ImageView
+				                android:layout_width="wrap_content"
+				                android:layout_height="match_parent"
+				                android:layout_gravity="center_vertical"
+				                style="@style/common_row_date_title_icon_style"
+				                android:background="@drawable/order_time"
+				                android:contentDescription="服务图标" />
+
+				            <TextView
+				                android:layout_width="wrap_content"
+				                android:layout_height="match_parent"
+				                android:layout_gravity="center_vertical"
+				                android:gravity="center_vertical"
+				                style="@style/common_row_date_title_icon_text_style"
+				                android:text="服务名称" />
+				        </TableRow>
+						<TableRow>
+						    <TextView
+						        android:layout_span="2"
+						        android:layout_column="1"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            style="@style/common_row_date_title_description_text_style"
+					            android:text="市场价：22元/条" />
+						</TableRow>
+						<TableRow>
+							<TextView
+							    android:layout_span="2"
+							    android:layout_column="1"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            style="@style/common_row_date_title_description_text_style"
+					            android:text="优惠价：15元/条" />
+						</TableRow>
+				    </TableLayout>
+				    <!-- 右侧减号图标 -->
+					<ImageView
+					    android:layout_column="1"
+					    android:layout_width="wrap_content"
+					    style="@style/common_row_date_button_style"
+					    android:layout_marginRight="0dp"
+					    android:layout_gravity="center_vertical"
+					    android:background="@drawable/sub_one"/>
+					<!-- 右侧数量文字 -->
+					<TextView
+					    android:layout_column="2"
+					    android:layout_gravity="center_vertical"
+					    android:gravity="center"
+					    style="@style/common_row_date_number_style"
+					    android:text="000"/>
+					<!-- 右侧加号图标 -->
+					<ImageView
+					    android:layout_column="3"
+					    android:layout_width="wrap_content"
+					    style="@style/common_row_date_button_style"
+					    android:layout_marginLeft="0dp"
+					    android:layout_gravity="center_vertical"
+					    android:background="@drawable/add_one"/>
+				</TableRow>
+			</TableLayout>
+		</ScrollView>
+		<TextView
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="bottom"
+		    android:layout_marginLeft="18dp"
+		    android:layout_marginRight="18dp"
+		    style="@style/common_button_style"
+		    android:text="下一步" />
+	</FrameLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 应用名称 -->
+    <string name="app_name">有个管家</string>
+    <!-- ==================[ 共头部 ]======================  -->
+    <!-- 返回按钮文字 -->
+    <string name="public_header_left_default_text">＜</string>
+	<!-- contentDescription -->
+	<string name="common_top_avatar_image">头像相框图片</string>
+</resources>

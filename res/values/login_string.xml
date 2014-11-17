@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================[ 登录页面 ]==================== -->
+    <!-- 标题 -->
+    <string name="login_header_title_text">登 录</string>
+	<!-- 用户名输入提示信息 -->
+	<string name="login_user_name_hint">请输入您的手机号</string>
+	<!-- 密码输入提示信息 -->
+	<string name="login_password_hint">请输入您的登录密码</string>
+	<!-- 验证码 -->
+	<string name="login_get_captcha_button_text">验证码</string>
+	<!-- 登录按钮文字 -->
+	<string name="login_button_text">登 录</string>
+</resources>

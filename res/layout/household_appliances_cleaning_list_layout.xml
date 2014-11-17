@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="0" >
+
+    <!-- 单行选项 -->
+
+    <TableRow
+        style="@style/common_row_date_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:orientation="vertical"
+            android:shrinkColumns="1"
+            android:stretchColumns="1" >
+
+            <!-- 左上服务名称 -->
+
+            <TableRow
+                style="@style/common_row_date_title_style"
+                android:layout_width="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/household_appliances_cleaning_server_icon"
+                    style="@style/common_row_date_title_icon_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/order_time"
+                    android:contentDescription="服务图标" />
+
+                <TextView
+                    android:id="@+id/household_appliances_cleaning_server_name"
+                    style="@style/common_row_date_title_icon_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="服务名称" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/household_appliances_cleaning_server_description_1"
+                    style="@style/common_row_date_title_description_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_span="2"
+                    android:text="第一行：服务说明简介服务说明简介服务说明简介服务服务说明简介服务说明简介服务说明简介服务" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/household_appliances_cleaning_server_description_2"
+                    style="@style/common_row_date_title_description_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_span="2"
+                    android:text="第二行：服务说明简介服务说明简介服务说明简介服务服务说明简介服务说明简介服务说明简介服务" />
+            </TableRow>
+        </TableLayout>
+        <!-- 右侧选中图标 -->
+
+        <ImageView
+            style="@style/common_row_date_button_style"
+            android:layout_width="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical" />
+    </TableRow>
+
+</TableLayout>

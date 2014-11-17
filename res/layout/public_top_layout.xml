@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/common_top_style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/common_top_info_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_top_info"
+            android:orientation="vertical" >
+
+            <!-- 提示文字信息 -->
+
+            <TextView
+                android:id="@+id/common_top_hint_text"
+                style="@style/common_top_hint_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 头像效果 -->
+
+    <FrameLayout
+        style="@style/common_top_avatar_frame_layout_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            style="@style/common_top_avatar_image_view_style"
+            android:contentDescription="@string/common_top_avatar_image" />
+    </FrameLayout>
+
+</LinearLayout>

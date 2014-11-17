@@ -1,0 +1,172 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.NoTitleBar.Fullscreen">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- ====================[ 公共样式 ]=================== -->
+    <!-- 允许点击 -->
+    <style name="common_onclick">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <!-- 背景颜色 -->
+	<style name="common_background_color">
+	    <item name="android:background">@color/common_background_color</item>
+	</style>
+	<!-- 背景和字体颜色 -->
+	<style name="common_background_text_color" parent="@style/common_background_color">
+	    <item name="android:textColor">@color/common_title_text_color</item>
+	</style>
+	<!-- body 样式 -->
+	<style name="common_body_style">
+	    <item name="android:background">@color/common_body_background_color</item>
+	</style>
+	<!-- 按钮样式 -->
+	<style name="common_button_style">
+		<item name="android:padding">@dimen/common_button_padding</item>
+		<item name="android:gravity">center</item>
+		<item name="android:background">@drawable/common_button_background</item>
+		<item name="android:layout_marginTop">@dimen/common_button_margin_top_bottom</item>
+		<item name="android:layout_marginBottom">@dimen/common_button_margin_top_bottom</item>
+		<item name="android:textColor">@color/common_button_text_color</item>
+		<item name="android:layout_marginLeft">18dp</item>
+		<item name="android:layout_marginRight">18dp</item>
+		<item name="android:focusable">true</item>
+		<item name="android:clickable">true</item>
+	</style>
+	<!-- =======================[ 公共顶部 ] -->
+	<!-- 公共顶部样式 -->
+	<style name="common_top_style" parent="@style/common_body_style">
+		<item name="android:paddingBottom">10dp</item>
+	</style>
+	<!-- 公共顶部显示个人头像及提示信息 -->
+	<style name="common_top_info_style" parent="@style/common_background_color">
+	    <item name="android:paddingLeft">@dimen/common_top_left_right_padding</item>
+	    <item name="android:paddingRight">@dimen/common_top_left_right_padding</item>
+	    <item name="android:paddingBottom">@dimen/common_top_bottom_padding</item>
+	</style>
+	<!-- 公共顶部 提示信息样式 -->
+	<style name="common_top_hint_style">
+	    <item name="android:layout_marginLeft">@dimen/common_top_hint_text_left_right_margin</item>
+		<item name="android:layout_marginRight">@dimen/common_top_hint_text_left_right_margin</item>
+		<item name="android:layout_marginTop">@dimen/common_top_hint_text_top_margin</item>
+		<item name="android:layout_marginBottom">@dimen/common_top_hint_text_bottom_margin</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">@color/common_title_text_color</item>
+		<item name="android:textSize">@dimen/common_top_hint_text_size</item>
+	</style>
+	<!-- 公共顶部 头像FrameLayout样式 -->
+	<style name="common_top_avatar_frame_layout_style">
+		<item name="android:layout_marginTop">-74dp</item>
+	</style>
+	<!-- 公共顶部 头像ImageView 样式 -->
+	<style name="common_top_avatar_image_view_style">
+		<item name="android:background">@drawable/call</item>
+	    <item name="android:layout_width">89dp</item>
+	    <item name="android:layout_height">89dp</item>
+	    <item name="android:layout_gravity">center_horizontal</item>
+	</style>
+	<!-- ====================[ 公共底部(页脚) 样式 -->
+	<!-- 页脚整体样式 -->
+	<style name="common_footer_style">
+	    <item name="android:height">@dimen/common_footer_height</item>
+	    <item name="android:background"></item>
+	</style>
+	<!-- ====================[ 公共头部 ]==================== -->
+	<!-- 公共头部样式 -->
+	<style name="common_header_style" parent="@style/common_background_color">
+	    <item name="android:paddingTop">@dimen/common_header_top_bottom_padding</item>
+	    <item name="android:paddingRight">@dimen/common_header_left_right_padding</item>
+	    <item name="android:paddingBottom">@dimen/common_header_top_bottom_padding</item>
+	    <item name="android:paddingLeft">@dimen/common_header_left_right_padding</item>
+	</style>
+	<!-- 公共头部文字样式 -->
+	<style name="common_header_text_style">
+	    <item name="android:textColor">@color/common_title_text_color</item>
+	    <item name="android:textSize">@dimen/common_header_text_size</item>
+	    <item name="android:height">@dimen/common_header_content_height</item>
+	    <item name="android:gravity">center_vertical|center_horizontal</item>
+	</style>
+	<!-- 公共头部按钮样式 -->
+	<style name="common_header_button_style">
+	    <item name="android:height">@dimen/common_header_content_height</item>
+	    <item name="android:focusable">true</item>
+	    <item name="android:clickable">true</item>
+	</style>
+
+	<!-- ===================[ 公共内容滚动条样式 ]====================== -->
+	<style name="common_croll_view_style">
+	    <item name="android:layout_marginBottom">@dimen/common_croll_view_bottom_margin</item>
+		<item name="android:scrollbars">none</item>
+	</style>
+	<!-- ===================[ 公共单行数据样式 ]======================= -->
+	<!-- 整体样式 -->
+	<style name="common_row_date_style">
+		<item name="android:paddingTop">@dimen/common_row_date_top_bottom_padding</item>
+		<item name="android:paddingBottom">@dimen/common_row_date_top_bottom_padding</item>
+		<item name="android:layout_marginBottom">@dimen/common_row_date_bottom_margin</item>
+		<item name="android:background">@color/common_row_date_background_color</item>
+	</style>
+	<!-- 数据标题整体样式 -->
+	<style name="common_row_date_title_style">
+		<item name="android:layout_height">@dimen/common_row_date_title_height</item>
+		<item name="android:layout_marginBottom">@dimen/common_row_date_title_bottom_margin</item>
+	</style>
+	<!-- 数据标题 图标样式 -->
+	<style name="common_row_date_title_icon_style">
+	    <item name="android:layout_marginLeft">@dimen/common_row_date_title_content_left_margin</item>
+	</style>
+	<!-- 数据标题文字样式 -->
+	<style name="common_row_date_title_text_style" parent="@style/common_row_date_title_icon_style">
+		<item name="android:textSize">@dimen/common_row_date_title_text_size</item>
+	</style>
+	<!-- 有图标的数据标题文字样式 -->
+	<style name="common_row_date_title_icon_text_style" parent="@style/common_row_date_title_text_style">
+	    <item name="android:layout_marginLeft">@dimen/common_row_date_title_text_left_margin</item>
+	    <item name="android:textColor">@color/common_background_color</item>
+	</style>
+	<!-- 无图标的数据标题文字 被选中时的样式 -->
+	<style name="common_row_date_title_no_icon_text_checked_style">
+		<item name="android:layout_marginLeft">@dimen/common_row_date_title_content_left_margin</item>
+	    <item name="android:textColor">@color/common_row_date_title_no_icon_text_checked_color</item>
+	</style>
+	<!-- 无图标的数据标题文字 未被选中时的样式 -->
+	<style name="common_row_date_title_no_icon_text_unchecked_style">
+		<item name="android:layout_marginLeft">@dimen/common_row_date_title_content_left_margin</item>
+	    <item name="android:textColor">@color/common_row_date_title_no_icon_text_unchecked_color</item>
+	</style>
+	<!-- 数据标题说明样式 -->
+	<style name="common_row_date_title_description_text_style">
+	    <item name="android:textSize">@dimen/common_row_date_title_description_text_size</item>
+	    <item name="android:paddingLeft">@dimen/common_row_date_title_description_left_padding</item>
+	    <item name="android:textColor">@color/common_input_hint_text_color</item>
+	</style>
+	<!-- 数据选中图标样式 -->
+	<style name="common_row_date_button_style">
+	    <item name="android:height">@dimen/common_row_date_button_height</item>
+	    <item name="android:layout_marginLeft">@dimen/common_row_date_button_lef_right_margin</item>
+	    <item name="android:layout_marginRight">@dimen/common_row_date_button_lef_right_margin</item>
+	    <item name="android:background">@drawable/selection_checked</item>
+	</style>
+	<!-- 数量显示样式 -->
+	<style name="common_row_date_number_style">
+		<item name="android:width">@dimen/common_row_date_number_width</item>
+		<item name="android:height">@dimen/common_row_date_number_height</item>
+		<item name="android:textSize">@dimen/common_row_date_number_text_size</item>
+		<item name="android:textColor">@color/common_background_color</item>
+	</style>
+</resources>

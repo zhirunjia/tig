@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen> -->
+    <!-- =================[ 公共 ]====================== -->
+    <!-- 按钮背景弧度 -->
+    <dimen name="common_button_background_radius">10dp</dimen>
+    <!-- 按钮内边距 -->
+    <dimen name="common_button_padding">10dp</dimen>
+    <!-- 按钮上外边距 -->
+    <dimen name="common_button_margin_top_bottom">14dp</dimen>
+    <!-- 公共顶部左、右、下内边距 -->
+    <dimen name="common_top_left_right_padding">28dp</dimen>
+    <dimen name="common_top_bottom_padding">21dp</dimen>
+
+    <!-- =================[ 公共头部 ]====================== -->
+    <!-- 公共头部内容高度 -->
+	<dimen name="common_header_content_height">20dp</dimen>
+	<!-- 公共头部上、下内边距 -->
+	<dimen name="common_header_top_bottom_padding">22dp</dimen>
+	<!-- 公共头部左、右内边距 -->
+	<dimen name="common_header_left_right_padding">28dp</dimen>
+	<!-- 公共头部字体大小 -->
+	<dimen name="common_header_text_size">18sp</dimen>
+
+	<!-- =================[ 公共顶部 ]======================= -->
+	<!-- margins -->
+	<dimen name="common_top_hint_text_left_right_margin">30dp</dimen>
+	<dimen name="common_top_hint_text_top_margin">20dp</dimen>
+	<dimen name="common_top_hint_text_bottom_margin">62dp</dimen>
+	<!-- 字体大小 -->
+	<dimen name="common_top_hint_text_size">14sp</dimen>
+
+	<!-- =================[ 公共页脚 ]==================== -->
+	<!-- 页脚整体高度 -->
+	<dimen name="common_footer_height">66dp</dimen>
+	<!-- =================[ 公共滚动条 ]=================== -->
+	<!-- 滚动条下外边距 -->
+	<dimen name="common_croll_view_bottom_margin">68dp</dimen>
+	<!-- 滚动条内单条数据上下内边距 -->
+	<dimen name="common_row_date_top_bottom_padding">7dp</dimen>
+	<!-- 滚动条内单条数据下外边距 -->
+	<dimen name="common_row_date_bottom_margin">1dp</dimen>
+
+	<!-- ===================[ 公共单行数据 ]======================= -->
+	<!-- 数据标题整体高度 -->
+	<dimen name="common_row_date_title_height">20dp</dimen>
+	<!-- 数据标题整体下外边距 -->
+	<dimen name="common_row_date_title_bottom_margin">2dp</dimen>
+	<!-- 数据标题内容(文字或图标)左侧外边距 -->
+	<dimen name="common_row_date_title_content_left_margin">18dp</dimen>
+	<!-- 数据标题字体大小 -->
+	<dimen name="common_row_date_title_text_size">14sp</dimen>
+	<!-- 数据标题文字或副标题文字左外边距 -->
+	<dimen name="common_row_date_title_text_left_margin">8dp</dimen>
+	<!-- 数据标题说明文字字体大小 -->
+	<dimen name="common_row_date_title_description_text_size">10sp</dimen>
+	<!-- 数据标题说明文字左外边距-->
+	<dimen name="common_row_date_title_description_left_padding">@dimen/common_row_date_title_text_left_margin</dimen>
+	<!-- 数据按钮高度 -->
+	<dimen name="common_row_date_button_height">30dp</dimen>
+	<!-- 数据按钮左、右外边距 -->
+	<dimen name="common_row_date_button_lef_right_margin">18dp</dimen>
+	<!-- 数量显示宽度 -->
+	<dimen name="common_row_date_number_width">50dp</dimen>
+	<!-- 数量显示高度 -->
+	<dimen name="common_row_date_number_height">@dimen/common_row_date_button_height</dimen>
+	<!-- 数量显示字体大小 -->
+	<dimen name="common_row_date_number_text_size">20sp</dimen>
+</resources>

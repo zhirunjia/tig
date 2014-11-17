@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 下单选项内上下、左右内边距 -->
+    <dimen name="clean_keeping_option_top_bottom_padding">21dp</dimen>
+    <dimen name="clean_keeping_option_left_right_padding">18dp</dimen>
+    <!-- 下单选项下外边距 -->
+    <dimen name="clean_keeping_option_button_margin">1dp</dimen>
+    <!-- 下单选项内容行高 -->
+    <dimen name="clean_keeping_option_content_height">20dp</dimen>
+    <!-- 下单选项文字左内边距 -->
+    <dimen name="clean_keeping_option_text_left_padding">8dp</dimen>
+    <!-- 下单选项文字大小 -->
+    <dimen name="clean_keeping_option_text_size">18sp</dimen>
+    <!-- 下单选项文字补充说明左内补白 -->
+    <dimen name="clean_keeping_option_text_description_left_padding">10dp</dimen>
+    <!-- 下单选项 房屋面积 上下内边距 -->
+    <dimen name="clean_keeping_option_floor_eare_top_bottom_padding">12dp</dimen>
+	<!-- 下单选项 房屋面积选项高度 -->
+	<dimen name="clean_keeping_option_floor_eare_option_height">38dp</dimen>
+	<!-- 下单选项 房屋面积选项内边距 -->
+	<dimen name="clean_keeping_option_floor_eare_option_padding">5dp</dimen>
+	<!-- 下单选项 房屋面积选项 顶部文字大小 -->
+	<dimen name="clean_keeping_option_floor_eare_option_top_text_size">14sp</dimen>
+	<!-- 下单选项 房屋面积选项 底部文字大小 -->
+	<dimen name="clean_keeping_option_floor_eare_option_bottom_text_size">8sp</dimen>
+
+</resources>

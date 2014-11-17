@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/common_body_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/public_header_layout" />
+    <!-- 垂直滚动条 -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <ScrollView
+            style="@style/common_croll_view_style"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top" >
+
+            <!-- 列表内容 -->
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shrinkColumns="0"
+                android:stretchColumns="0" >
+
+                <!-- 单行选项 -->
+
+                <TableRow
+                    style="@style/common_row_date_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/common_row_date_title_no_icon_text_checked_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:text="地址地址地址地址地址地址地址地址地址地址地址地址地址" />
+                    <!-- 右侧选中图标 -->
+
+                    <ImageView
+                        style="@style/common_row_date_button_style"
+                        android:layout_width="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="center_vertical" />
+                </TableRow>
+                <!-- 单行选项 -->
+
+                <TableRow
+                    style="@style/common_row_date_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/common_row_date_title_no_icon_text_unchecked_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:text="地址地址地址地址地址地址地址地址地址地址地址地址地址" />
+                    <!-- 右侧选中图标 -->
+
+                    <ImageView
+                        style="@style/common_row_date_button_style"
+                        android:layout_width="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/selection" />
+                </TableRow>
+            </TableLayout>
+        </ScrollView>
+
+        <TextView
+            style="@style/common_button_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="添加一个新地址" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/common_body_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<include
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    layout="@layout/public_header_layout"/>
+	<!-- 垂直滚动条 -->
+	<FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent">
+		<ScrollView
+		    android:layout_width="match_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_gravity="top"
+		    style="@style/common_croll_view_style">
+		    <!-- 列表内容 -->
+			<TableLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:shrinkColumns="0,1"
+			    android:stretchColumns="1">
+				<!-- 单行选项 -->
+				<TableRow
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    style="@style/common_row_date_style">
+				    <TextView
+				    	android:layout_width="wrap_content"
+				        android:layout_height="match_parent"
+				        android:layout_gravity="center_vertical"
+				        android:gravity="center_vertical|right"
+				        android:text="手机号"
+				        style="@style/common_row_date_title_no_icon_text_checked_style"/>
+				    <TextView
+				    	android:layout_width="wrap_content"
+				        android:layout_height="match_parent"
+				        android:layout_gravity="center_vertical"
+				        android:gravity="center_vertical"
+				        android:text="18210219795"
+				        style="@style/common_row_date_title_icon_text_style"/>
+				</TableRow>
+				<!-- 单行选项 -->
+				<TableRow
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    style="@style/common_row_date_style">
+				    <TextView
+				    	android:layout_width="wrap_content"
+				        android:layout_height="match_parent"
+				        android:layout_gravity="center_vertical"
+				        android:gravity="center_vertical|right"
+				        android:text="余额"
+				        style="@style/common_row_date_title_no_icon_text_checked_style"/>
+				    <TextView
+				    	android:layout_width="wrap_content"
+				        android:layout_height="match_parent"
+				        android:layout_gravity="center_vertical"
+				        android:gravity="center_vertical"
+				        android:text="10000 元"
+				        style="@style/common_row_date_title_icon_text_style"/>
+				</TableRow>
+				<!-- 单行选项 -->
+				<TableRow
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    style="@style/common_row_date_style">
+				    <TextView
+				    	android:layout_width="wrap_content"
+				        android:layout_height="match_parent"
+				        android:layout_gravity="center_vertical"
+				        android:gravity="center_vertical|right"
+				        android:text="积分"
+				        style="@style/common_row_date_title_no_icon_text_checked_style"/>
+				    <TextView
+				    	android:layout_width="wrap_content"
+				        android:layout_height="match_parent"
+				        android:layout_gravity="center_vertical"
+				        android:gravity="center_vertical"
+				        android:text="1000 分"
+				        style="@style/common_row_date_title_icon_text_style"/>
+				</TableRow>
+			</TableLayout>
+		</ScrollView>
+		<TextView
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="bottom"
+		    style="@style/common_button_style"
+		    android:text="退出登录" />
+	</FrameLayout>
+</LinearLayout>

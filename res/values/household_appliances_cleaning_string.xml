@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="household_appliances_cleaning_header_title_text">家电清洗</string>
+    <string name="household_appliances_cleaning_top_hint_text">智能管家提示: 按一下要求下单</string>
+</resources>

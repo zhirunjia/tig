@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================[ 登录 Form ]===================== -->
+	<!-- 登录 Form 左、右内边距 -->
+	<dimen name="login_form_left_right_padding">18dp</dimen>
+	<!-- 登录 Form 上、下内边距 -->
+	<dimen name="login_form_top_bottom_padding">@dimen/login_form_left_right_padding</dimen>
+	<!-- 登录文本输入LinearLayout 内边距 -->
+	<dimen name="login_form_input_linear_layout_padding">0.5dp</dimen>
+	<!-- 登录文本框高度 -->
+	<dimen name="login_form_input_height">30dp</dimen>
+	<!-- 登录文本框 左、右内边距 -->
+	<dimen name="login_form_input_left_right_padding">10dp</dimen>
+	<!-- 登录文本框 上、下内边距 -->
+	<dimen name="login_form_input_top_bottom_padding">8dp</dimen>
+    <!-- 登录文本字体大小 -->
+    <dimen name="login_form_input_text_size">14sp</dimen>
+	<!-- 获取验证码按钮字体大小 -->
+    <dimen name="login_form_get_captcha_button_text_size">10sp</dimen>
+    <dimen name="login_form_get_captcha_button_padding">5dp</dimen>
+</resources>

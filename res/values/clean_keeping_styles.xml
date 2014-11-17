@@ -1,0 +1,55 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- ================================[ 保洁 ]================================ -->
+	<!-- 下单选项整体样式 -->
+	<style name="clean_keeping_option_style">
+		<item name="android:background">@color/clean_keeping_option_background_color</item>
+		<item name="android:paddingTop">@dimen/clean_keeping_option_top_bottom_padding</item>
+		<item name="android:paddingBottom">@dimen/clean_keeping_option_top_bottom_padding</item>
+		<item name="android:paddingLeft">@dimen/clean_keeping_option_left_right_padding</item>
+		<item name="android:paddingRight">@dimen/clean_keeping_option_left_right_padding</item>
+		<item name="android:layout_marginBottom">@dimen/clean_keeping_option_button_margin</item>
+	</style>
+	<!-- 下单选项 房屋面积 整体样式 -->
+	<style name="clean_keeping_option_floor_eare_style" parent="@style/clean_keeping_option_style">
+		<item name="android:paddingTop">@dimen/clean_keeping_option_floor_eare_top_bottom_padding</item>
+		<item name="android:paddingBottom">@dimen/clean_keeping_option_floor_eare_top_bottom_padding</item>
+	</style>
+	<!-- 下单选项 房屋面积 选项样式 -->
+	<style name="clean_keeping_option_floor_eare_option_style">
+	    <item name="android:layout_height">@dimen/clean_keeping_option_floor_eare_option_height</item>
+		<item name="android:padding">@dimen/clean_keeping_option_floor_eare_option_padding</item>
+	</style>
+	<!-- 下单选项 房屋面积 选项顶部文字 选中 样式 -->
+	<style name="clean_keeping_option_floor_eare_option_top_text_selected_style">
+		<item name="android:textSize">@dimen/clean_keeping_option_floor_eare_option_top_text_size</item>
+		<item name="android:textColor">@color/common_title_text_color</item>
+	</style>
+	<!-- 下单选项 房屋面积 选项底部文字 选中 样式 -->
+	<style name="clean_keeping_option_floor_eare_option_bottom_text_selected_style" parent="@style/clean_keeping_option_floor_eare_option_top_text_selected_style">
+		<item name="android:textSize">@dimen/clean_keeping_option_floor_eare_option_bottom_text_size</item>
+	</style>
+	<!-- 下单选项 房屋面积 选项顶部部文字 未选中 样式 -->
+	<style name="clean_keeping_option_floor_eare_option_top_text_unselected_style" parent="@style/clean_keeping_option_floor_eare_option_top_text_selected_style">
+		<item name="android:textColor">@color/clean_keeping_option_floor_eare_option_unselected_text_color</item>
+	</style>
+	<!-- 下单选项 房屋面积 选项底部文字 未选中 样式 -->
+	<style name="clean_keeping_option_floor_eare_option_bottom_text_unselected_style" parent="@style/clean_keeping_option_floor_eare_option_bottom_text_selected_style">
+		<item name="android:textColor">@color/clean_keeping_option_floor_eare_option_unselected_text_color</item>
+	</style>
+
+	<!-- 下单选项左侧LinearLayout 样式 -->
+	<style name="clean_keeping_option_left_linear_layout_style">
+		<item name="android:layout_height">@dimen/clean_keeping_option_content_height</item>
+	</style>
+	<!-- 下单选项文字样式 -->
+	<style name="clean_keeping_option_text_style">
+	    <item name="android:paddingLeft">@dimen/clean_keeping_option_text_left_padding</item>
+		<item name="android:textSize">@dimen/clean_keeping_option_text_size</item>
+		<item name="android:textColor">@color/common_background_color</item>
+	</style>
+	<!-- 下单选项文字补充说明样式 -->
+	<style name="clean_keeping_option_text_description_style" parent="@style/clean_keeping_option_text_style">
+		<item name="android:paddingLeft">@dimen/clean_keeping_option_text_description_left_padding</item>
+		<item name="android:textColor">@color/clean_keeping_option_text_description_color</item>
+	</style>
+</resources>
